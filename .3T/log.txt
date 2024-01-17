@@ -1,0 +1,784 @@
+2023-07-19T17:50:11-0500 [main] t3.dataman.mongodb.app.am.acU()
+INFO: Studio 3T version 2023.5.0
+2023-07-19T17:50:12-0500 [main] t3.utils.ab.i.H()
+WARNING: Missing file to load: properties.dat. Skipping this step.
+2023-07-19T17:50:12-0500 [main] t3.utils.ab.i.H()
+WARNING: Missing file to load: properties.dat. Skipping this step.
+2023-07-19T17:50:12-0500 [main] t3.utils.ab.s.bGl()
+WARNING: Cannot read managed property store from disk: java.lang.NullPointerException: Cannot read the array length because "buf" is null
+	at java.base/java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:108)
+	at t3.utils.ab.s.bGl(ManagedPropertyStore.java:229)
+	at t3.utils.ab.ac.bGo(PropertyStore.java:248)
+	at t3.utils.ab.ac.get(PropertyStore.java:245)
+	at t3.utils.ab.y.a(PropertyStore.java:64)
+	at t3.utils.ab.x.a(PropertyStore.java:245)
+	at t3.utils.ab.s.bGk(ManagedPropertyStore.java:225)
+	at t3.utils.ab.s.a(ManagedPropertyStore.java:129)
+	at t3.utils.ab.s.wh(ManagedPropertyStore.java:88)
+	at t3.common.c.a.i.ca(UsageTokenStore.java:30)
+	at t3.common.c.a.b.bw(AccountBasedLicenseManager.java:32)
+	at t3.common.c.k.<init>(LicenseManager.java:51)
+	at t3.common.c.k.<init>(LicenseManager.java:38)
+	at t3.utils.g.aR(App.java:396)
+	at t3.dataman.mongodb.app.Studio3TApp.main(Studio3TApp.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+2023-07-19T17:50:12-0500 [main] t3.utils.ab.s.bGl()
+WARNING: Cannot read managed property store from disk: java.lang.NullPointerException: Cannot read the array length because "buf" is null
+	at java.base/java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:108)
+	at t3.utils.ab.s.bGl(ManagedPropertyStore.java:229)
+	at t3.utils.ab.ac.bGo(PropertyStore.java:248)
+	at t3.utils.ab.ac.get(PropertyStore.java:245)
+	at t3.utils.ab.y.a(PropertyStore.java:64)
+	at t3.utils.ab.x.a(PropertyStore.java:245)
+	at t3.utils.ab.s.bGk(ManagedPropertyStore.java:225)
+	at t3.utils.ab.s.a(ManagedPropertyStore.java:129)
+	at t3.utils.ab.s.wh(ManagedPropertyStore.java:88)
+	at t3.common.b.q.t(T3AccountStore.java:23)
+	at t3.common.b.p.<init>(T3AccountManager.java:25)
+	at t3.common.c.e.c.<init>(LicServerApiClient.java:44)
+	at t3.common.c.e.c.<init>(LicServerApiClient.java:50)
+	at t3.common.c.a.b.bw(AccountBasedLicenseManager.java:32)
+	at t3.common.c.k.<init>(LicenseManager.java:51)
+	at t3.common.c.k.<init>(LicenseManager.java:38)
+	at t3.utils.g.aR(App.java:396)
+	at t3.dataman.mongodb.app.Studio3TApp.main(Studio3TApp.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+2023-07-19T17:50:12-0500 [main] t3.utils.ab.s.bGl()
+WARNING: Cannot read managed property store from disk: java.lang.NullPointerException: Cannot read the array length because "buf" is null
+	at java.base/java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:108)
+	at t3.utils.ab.s.bGl(ManagedPropertyStore.java:229)
+	at t3.utils.ab.ac.bGo(PropertyStore.java:248)
+	at t3.utils.ab.ac.get(PropertyStore.java:245)
+	at t3.utils.ab.y.a(PropertyStore.java:64)
+	at t3.utils.ab.x.a(PropertyStore.java:245)
+	at t3.utils.ab.s.bGk(ManagedPropertyStore.java:225)
+	at t3.utils.ab.s.a(ManagedPropertyStore.java:129)
+	at t3.utils.ab.s.wh(ManagedPropertyStore.java:88)
+	at t3.common.c.e.b.cM(InstanceIdStore.java:27)
+	at t3.common.c.e.a.<init>(InstanceIdManager.java:23)
+	at t3.common.c.e.c.<init>(LicServerApiClient.java:45)
+	at t3.common.c.e.c.<init>(LicServerApiClient.java:50)
+	at t3.common.c.a.b.bw(AccountBasedLicenseManager.java:32)
+	at t3.common.c.k.<init>(LicenseManager.java:51)
+	at t3.common.c.k.<init>(LicenseManager.java:38)
+	at t3.utils.g.aR(App.java:396)
+	at t3.dataman.mongodb.app.Studio3TApp.main(Studio3TApp.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+2023-07-19T17:50:12-0500 [main] t3.utils.connman.gp.a()
+WARNING: No Robo3TConfiguration is found. Skipping this step
+2023-07-19T17:50:13-0500 [main] t3.utils.connman.gp.a()
+WARNING: No Robo3TConfiguration is found. Skipping this step
+2023-07-19T17:50:13-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Unselected@1.3x.png
+2023-07-19T17:50:13-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Unselected@2x.png
+2023-07-19T17:50:13-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Selected@1.3x.png
+2023-07-19T17:50:13-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Selected@2x.png
+2023-07-19T17:50:13-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/View-eye-color@1.3x.png
+2023-07-19T17:50:13-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/View-eye-color@2x.png
+2023-07-19T17:50:14-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Warning-color@1.3x.png
+2023-07-19T17:50:14-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Warning-color@2x.png
+2023-07-19T17:55:48-0500 [main] t3.common.c.a.b.b()
+WARNING: Failed to install license: t3.common.c.e.e: Not logged in.
+	at t3.common.b.p.a(T3AccountManager.java:115)
+	at t3.common.c.e.c.e(LicServerApiClient.java:145)
+	at t3.common.c.a.b.b(AccountBasedLicenseManager.java:137)
+	at t3.dataman.mongodb.app.Studio3TApp.b(Studio3TApp.java:216)
+	at t3.dataman.mongodb.app.Studio3TApp.main(Studio3TApp.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/IntelliShell-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/IntelliShell-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/SQL-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/SQL-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Tasks-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Tasks-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Search-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Search-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Open-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Open-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Open-file-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Open-file-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Open-task-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Open-task-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Save-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Save-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Save-as-file-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Save-as-file-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Save-as-task-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Save-as-task-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Collection-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Collection-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Open-in-aggregation-editor-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Open-in-aggregation-editor-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Map-reduce-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Map-reduce-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Data-masking-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Data-masking-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Schema-explorer-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Schema-explorer-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Reschema-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Reschema-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/compare-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/compare-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Connect-Tag-Empty@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Connect-Tag-Empty@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Collection-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Collection-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/IntelliShell-Tag-Empty@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/IntelliShell-Tag-Empty@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/SQL-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/SQL-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Aggregate-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Aggregate-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Search-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Search-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Compare-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Compare-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Schema-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Schema-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Reschema-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Reschema-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Tasks-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Tasks-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Export-Tag-Empty@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Export-Tag-Empty@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Import-Tag-Empty@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Import-Tag-Empty@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Data-Masking-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Data-Masking-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/SQL-Migration-Tag-Active@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/SQL-Migration-Tag-Active@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/End-of-trial-Tag-Empty@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/End-of-trial-Tag-Empty@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Close-panel-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Close-panel-color@2x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Back-color@1.3x.png
+2023-07-19T17:55:49-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Back-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Server-db-connection-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Server-db-connection-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Server-locked-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Server-locked-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Database-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Database-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Collection-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Collection-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Collection-timeseries-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Collection-timeseries-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Views-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Views-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Code-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Code-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/GridFS-Bucket-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/GridFS-Bucket-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Users-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Users-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Roles-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Roles-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Roles-green@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Roles-green@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Index-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Index-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Session-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Session-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Replica-set-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Replica-set-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Server-primary-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Server-primary-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Server-secondary-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Server-secondary-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Folder-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Folder-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Favourite-selected-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Favourite-selected-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Match-case-selected-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Match-case-selected-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Match-case-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Match-case-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.ab.q.a()
+ERROR: weights of ConnectionTree.SearchResultSash177E2887CF7906B9EA013A6AB68DB789 not found: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "<local3>" is null saved object: null
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/14x14/Note-win-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/14x14/Note-win-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Cancel-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Cancel-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Show-status-log-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Show-status-log-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/File-picker-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/File-picker-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Broom-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Broom-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Broom-multiple-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Broom-multiple-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Open-in-tab-color@1.3x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Open-in-tab-color@2x.png
+2023-07-19T17:55:50-0500 [main] t3.utils.ab.q.a()
+ERROR: weights of AppWindow.lhs_rhs_sash.177E2887CF7906B9EA013A6AB68DB789 not found: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "<local3>" is null saved object: null
+2023-07-19T17:55:52-0500 [main] t3.dataman.mongodb.app.a.acp()
+INFO: Erasing temp files took 13 ms
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Next-color@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Next-color@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Launch@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Launch@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/33x35/Activation-get-started-man@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/33x35/Activation-get-started-man@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/33x35/Activation-get-started-fireworks@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/33x35/Activation-get-started-fireworks@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Warning@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Warning@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/View-options-dropdown@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/View-options-dropdown@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Help-color@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Help-color@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Troubleshooting@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Troubleshooting@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Internet@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Internet@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Activation-code@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Activation-code@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Paste-color@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Paste-color@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Warning-color@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Warning-color@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Complete-registration@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Complete-registration@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Warning-with-ok@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Warning-with-ok@2x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/54x54/Success@1.3x.png
+2023-07-19T17:55:53-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/54x54/Success@2x.png
+2023-07-19T17:56:14-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Back-to-free-Tag-Empty@1.3x.png
+2023-07-19T17:56:14-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Back-to-free-Tag-Empty@2x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/40x40/slider-arrow-prev@1.3x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/40x40/slider-arrow-prev.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/40x40/slider-arrow-next@1.3x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/40x40/slider-arrow-next.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/40x40/slider-arrow-prev-hover@1.3x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/40x40/slider-arrow-prev-hover.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/40x40/slider-arrow-next-hover@1.3x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/40x40/slider-arrow-next-hover.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Slider-dot@1.3x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Slider-dot@2x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Slider-dot-enabled@1.3x.png
+2023-07-19T17:56:16-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Slider-dot-enabled@2x.png
+2023-07-19T17:56:16-0500 [3T::e _0] t3.b.g.run()
+WARNING: 2023-07-19T17:56:16.669284300[ e ]  -> file [C:\Users\anper\.3T\roaming\history] doesn't exist -> return
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/New-connection@1.3x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/New-connection@2x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/New-group-color@1.3x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/New-group-color@2x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Edit@1.3x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Edit@2x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Delete@1.3x.png
+2023-07-19T17:56:20-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Delete@2x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Clone@1.3x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Clone@2x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Import-connection@1.3x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Import-connection@2x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Export-connection@1.3x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Export-connection@2x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/32x32/Export-to-uri@1.3x.png
+2023-07-19T17:56:21-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/32x32/Export-to-uri@2x.png
+2023-07-19T17:56:32-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Choose-colors@1.3x.png
+2023-07-19T17:56:32-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Choose-colors@2x.png
+2023-07-19T17:56:32-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Info-color@1.3x.png
+2023-07-19T17:56:32-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Info-color@2x.png
+2023-07-19T17:56:32-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/View-eye-color@1.3x.png
+2023-07-19T17:56:32-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/View-eye-color@2x.png
+2023-07-19T17:56:43-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/20x16/Server-db-connection-color@1.3x.png
+2023-07-19T17:56:43-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/20x16/Server-db-connection-color@2x.png
+2023-07-19T17:56:45-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Server-db-connection-color@1.3x.png
+2023-07-19T17:56:45-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Server-db-connection-color@2x.png
+2023-07-19T17:56:45-0500 [3T::Connection Manager Thread] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/User-color@1.3x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/User-color@2x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/Breadcrumb-separator@1.3x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/Breadcrumb-separator@2x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Database-color@1.3x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Database-color@2x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Bookmark-empty-color@1.3x.png
+2023-07-19T17:56:50-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Bookmark-empty-color.png
+2023-07-19T17:56:50-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:57:02-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:57:02-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Run-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Run-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Query-history-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Query-history-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Set-default-query-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Set-default-query-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Copy-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Copy-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Visual-query-builder-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Visual-query-builder-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Collapse-arrow-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Collapse-arrow-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Cut-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Cut-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Select-all-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Select-all-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Undo@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Undo@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Redo@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Redo@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Multiline-editor-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Multiline-editor-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Find-query-options-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Find-query-options-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Expand-arrow-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Expand-arrow-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Move-up-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Move-up-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Move-down-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Move-down-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Refresh-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Refresh-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Back-to-start-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Back-to-start-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Advance-to-end-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Advance-to-end-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/blank-16x16@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/blank-16x16.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Duplicate-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Duplicate-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Lock-unlocked-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Lock-unlocked-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Add-collection-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Add-collection-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/View-document-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/View-document-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Edit-document-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Edit-document-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/In-table-search-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/In-table-search-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Show-update-dialog-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Show-update-dialog-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Show-remove-dialog-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Show-remove-dialog-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Count-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Count-color@2x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Execution-time-color@1.3x.png
+2023-07-19T17:57:02-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Execution-time-color@2x.png
+2023-07-19T17:57:03-0500 [main] t3.utils.ab.q.a()
+ERROR: weights of CollectionTab.query_builder_sash.177E2887CF7906B9EA013A6AB68DB789 not found: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "<local3>" is null saved object: null
+2023-07-19T17:57:03-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T17:57:03-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:57:17-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/8x8/Expanded-color@1.3x.png
+2023-07-19T17:57:17-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/8x8/Expanded-color@2x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/treeTypeIcons/Type-object-color@1.3x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/treeTypeIcons/Type-object-color@2x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/tableTypeIcons/Type-id-color@1.3x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/tableTypeIcons/Type-id-color@2x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/tableTypeIcons/Type-string-color@1.3x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/tableTypeIcons/Type-string-color@2x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/tableTypeIcons/Type-date-color@1.3x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/tableTypeIcons/Type-date-color@2x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/tableTypeIcons/Type-array-color@1.3x.png
+2023-07-19T17:57:56-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/tableTypeIcons/Type-array-color@2x.png
+2023-07-19T17:58:25-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:58:29-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:58:29-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T17:58:30-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:58:30-0500 [main] t3.utils.ab.q.a()
+ERROR: weights of CollectionTab.query_builder_sash.177E2887CF7906B9EA013A6AB68DB789 not found: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "<local3>" is null saved object: null
+2023-07-19T17:58:30-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T17:58:30-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:59:26-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:59:31-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:59:31-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T17:59:32-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T17:59:32-0500 [main] t3.utils.ab.q.a()
+ERROR: weights of CollectionTab.query_builder_sash.177E2887CF7906B9EA013A6AB68DB789 not found: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "<local3>" is null saved object: null
+2023-07-19T17:59:32-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T17:59:32-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:00:22-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T18:00:22-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:00:23-0500 [main] t3.utils.ab.q.a()
+ERROR: weights of CollectionTab.query_builder_sash.177E2887CF7906B9EA013A6AB68DB789 not found: java.lang.NullPointerException: Cannot invoke "Object.toString()" because "<local3>" is null saved object: null
+2023-07-19T18:00:23-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T18:00:23-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:00:30-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:00:35-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:00:36-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T18:00:36-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:00:36-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T18:00:36-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:01:33-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:01:39-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:01:39-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T18:01:40-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:01:40-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T18:01:40-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:01:45-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/8x8/Collapsed-color@1.3x.png
+2023-07-19T18:01:45-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/8x8/Collapsed-color@2x.png
+2023-07-19T18:01:57-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/tableTypeIcons/Type-object-color@1.3x.png
+2023-07-19T18:01:57-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/tableTypeIcons/Type-object-color@2x.png
+2023-07-19T18:02:44-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:02:48-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:02:48-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T18:02:49-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:02:49-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T18:02:49-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:03:29-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/type-icon-sets/light/tableTypeIcons/Type-int32-color@1.3x.png
+2023-07-19T18:03:29-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/type-icon-sets/light/tableTypeIcons/Type-int32-color@2x.png
+2023-07-19T18:04:13-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:04:23-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:04:23-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=null] was not saved
+2023-07-19T18:04:23-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:04:24-0500 [main] t3.utils.al.o.bNC()
+WARNING: ae {} [layout=GridLayout {marginBottom=10}] was not saved
+2023-07-19T18:04:24-0500 [main] t3.utils.connman.v.d()
+WARNING: consider using isEffectiveVersionOrLater for comparing version against 3.4 or above
+2023-07-19T18:27:04-0500 [main] t3.utils.gui.bv.K()
+WARNING: Image doesn't exist: t3/utils/Icons8/light/16x16/Replace-color@1.3x.png
+2023-07-19T18:27:04-0500 [main] t3.utils.gui.bv.K()
+WARNING: Using: t3/utils/Icons8/light/16x16/Replace-color@2x.png
